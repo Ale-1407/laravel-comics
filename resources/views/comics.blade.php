@@ -1,5 +1,5 @@
 @extends('layout.app')
-
+@section('titolo-pagina', "DC Comics - Comics")
 @section('main')
     <main>
         <div>
