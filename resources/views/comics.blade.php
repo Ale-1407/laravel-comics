@@ -2,11 +2,11 @@
 @section('titolo-pagina', "DC Comics - Comics")
 @section('main')
     <main>
-        <div>
+        <div class="cont-card">
             @foreach ($fumetti as $elem)
-                <div>
+                <div class="cards">
                     <img src="{{ $elem['thumb'] }}" alt="magazine">
-                    <h6>{{ $elem['title'] }} </h6>
+                    <h6 class="text-white">{{ $elem['title'] }} </h6>
                 </div>
             @endforeach
         </div>

@@ -49,3 +49,31 @@ a:hover {
 }
 
 /* MAIN */
+
+main{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cont-card{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    width: calc(100% / 6);
+    padding: 15px;
+}
+
+.cards img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: top;
+}
+
+.cards img:hover{
+    box-shadow: 0px 15px 20px rgba(107, 177, 247, 0.4);
+    cursor: pointer;
+}
