@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* HEADER */
+
+nav{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav img{
+    height: 90px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+}
+
+li{
+    padding: 15px;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 13px;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  color: dodgerblue;
+  border-bottom: 5px solid dodgerblue;
+  padding-bottom: 49px;
+}
+
+.jumbotron{
+    background-size: cover;
+    background-image: url('../images/jumbotron.jpg');
+    height: 50vh;
+}
+
+/* MAIN */
